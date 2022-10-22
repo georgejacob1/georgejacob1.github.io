@@ -1,5 +1,6 @@
 # 📃Portfolio
 it's my  📃Portfolio for personal and commercial use.(https://www.georgejacob.online)
+<img alt="" src="assets/portfolio.png"> </img>
 ## 🛠️Languages and tools used
 <p>
 <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img style="margin: 10px" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" /></a>  
