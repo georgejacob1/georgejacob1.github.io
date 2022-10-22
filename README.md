@@ -14,6 +14,6 @@ Demo Images:
        Unsplash:       	(https://www.unsplash.com)<p>
 Icons:
       Themify Icons: 		(https://themify.me/themify-icons)<p>
-Other:
-	JQuery: 			(https://www.jquery.com)
-	Google Maps:		(https://maps.google.com)<p>
+
+JQuery: 			(https://www.jquery.com)<p>
+Google Maps:		(https://maps.google.com)
