@@ -1,6 +1,6 @@
 # 📃Portfolio
 
-<img alt="" src="assets/imgs/demo.mp4"> </img>
+<img alt="" src="assets/imgs/demo.gif"> </img>
 it's my 📃Portfolio for personal and commercial use.(https://www.georgejacob.online)
 
 ## 🛠️Languages and tools used
