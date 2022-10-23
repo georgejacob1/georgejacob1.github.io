@@ -11819,8 +11819,8 @@ pre .code {
   -weblit-transition: 0.5s !important;
   z-index: 2;
   box-shadow: 0 5px 1px rgba(128, 128, 128, 0.13);
-  width: 155px;
-  border-radius: 2%;
+  width: 240px;
+  border-radius: 100%;
 }
 
 .navbar .brand .brand-txt {
