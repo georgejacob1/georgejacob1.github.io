@@ -11819,7 +11819,7 @@ pre .code {
   -weblit-transition: 0.5s !important;
   z-index: 2;
   box-shadow: 0 5px 1px rgba(128, 128, 128, 0.13);
-  width: 165px;
+  width: 155px;
   border-radius: 2%;
 }
 
@@ -11905,13 +11905,13 @@ pre .code {
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
     ),
-    url(../imgs/header.jpg);
+    url(../imgs/george.jpeg);
   background-image: linear-gradient(
       to top,
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
     ),
-    url(../imgs/header.jpg);
+    url(../imgs/george.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
