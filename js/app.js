@@ -76,29 +76,32 @@ function countUp() {
   });
 }
 
-var mySwiper = new Swiper(".swiper-container", {
-  speed: 1100,
-  slidesPerView: 1,
-  loop: true,
-  autoplay: {
-    delay: 5000,
-  },
-  navigation: {
-    prevEl: ".swiper-button-prev",
-    nextEl: ".swiper-button-next",
-  },
-});
-footer_input.addEventListener("focus", () => {
-  footer_input.classList.add("focus");
-});
+$(document).ready(function () {
+  var mySwiper = new Swiper(".swiper-container", {
+    speed: 1100,
+    slidesPerView: 1,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+    },
+    navigation: {
+      prevEl: ".swiper-button-prev",
+      nextEl: ".swiper-button-next",
+    },
+  });
 
-footer_input.addEventListener("blur", () => {
-  if (footer_input.value != "") return;
-  footer_input.classList.remove("focus");
-});
+  $(".footer_input").on("focus", function () {
+    $(this).addClass("focus");
+  });
 
-$(".grid").isotope({
-  itemSelector: ".grid-item",
-  layoutMode: "fitRows",
-  transitionDuration: "0.6s",
+  $(".footer_input").on("blur", function () {
+    if ($(this).val() !== "") return;
+    $(this).removeClass("focus");
+  });
+
+  $(".grid").isotope({
+    itemSelector: ".grid-item",
+    layoutMode: "fitRows",
+    transitionDuration: "0.6s",
+  });
 });
